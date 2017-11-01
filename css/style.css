@@ -1,0 +1,261 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    padding-top: 80px;
+}
+a{
+    color:orange;
+}
+
+.navbar{
+    padding: 20px 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.navbar-brand{
+    padding:0px;
+}
+.navbar-brand img {
+    display: inline-block;
+    padding:0px 15px;
+}
+
+.navbar-brand span {
+    font-size:20px;
+    display: inline-block;
+   
+}
+
+.cbp-af-header-shrink{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    opacity: 0.9;
+}
+
+
+aside{
+    background-color: #f5f5f5;
+}
+
+aside h1{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+aside p{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.fill-screen{
+    background-size: cover;
+    background-position: center;
+}
+.fixed-attachment{
+    background-attachment: fixed;
+}
+
+.top-attraction{
+    margin: 50px;  
+}
+
+.top-attraction-element{
+    text-align: center;
+}
+
+.text-banner{
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.text-banner h1{
+    font-size: 36px;
+}
+
+.text-banner p{
+    font-style: italic;
+    text-align: center;
+}
+
+.text-banner-elements{
+    text-align: center; 
+    margin-bottom: 40px;
+}
+.text-banner-elements h1{
+    font-size: 24px;
+}
+
+.text-banner-elements p{
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+.title-row{
+    position: relative;
+    min-height: 300px;
+}
+
+.title-image{
+   position: absolute;
+   top:20%
+   
+}
+
+.down-button{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    text-align: center;
+}
+
+.down-button i{
+    color: #fff;
+    opacity: 0.6;
+}
+
+
+.full-circle {
+ background-color: #fff;
+ border: 3px solid orange;
+ height: 150px;
+ width: 150px;
+ -moz-border-radius: 75px;
+ -webkit-border-radius: 75px;
+}
+
+.circle-border{
+   
+    border: 5px solid orange;
+    height: 120px;
+    width: 120px;
+     -moz-border-radius: 75px;
+ -webkit-border-radius: 75px;
+    margin: 0px auto;
+    
+}
+
+.circle-border i{
+    color: #ddd;
+}
+
+.fa-5x{
+    margin: 18px auto;
+}
+
+#carousel-places{
+    border: 8px solid orange;
+}
+
+#carousel-places img{
+    text-align: center;
+    width: 100%;
+    height: 195px;
+}
+
+#carousel-events{
+    border: 8px solid orange;
+}
+
+#carousel-events img{
+    text-align: center;
+    width: 100%;
+    height: 195px;
+}
+
+#carousel-culture{
+    border: 8px solid orange;
+}
+
+#carousel-culture img{
+    text-align: center;
+    width: 100%;
+    height: 195px;
+}
+.carousel-caption h3{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+footer{
+    color: #ddd;
+    background-color: #333;
+    padding: 20px;
+    
+}
+
+
+footer h1{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #ddd;
+    border-top: 1px dotted #ddd;
+    line-height: 0.2;
+    padding: 0;
+}
+
+footer h1 span {
+    background: #333;
+    padding: 0 15px;
+}
+    
+/* unvisited link */
+footer a:link {
+    color:#ddd;
+    text-decoration: none;
+}
+/* visited link */
+footer a:visited {
+    color:#ddd;
+    text-decoration: none;
+}
+/* mouse over link */
+footer a:hover {
+    color:rgba(221, 221, 221, 0.8);
+    text-decoration: underline;
+}
+/* selected link */
+footer a:active {
+    color:#ddd;
+    text-decoration: none;
+}
+
+footer li{
+    list-style: none;
+    padding-left:15px;
+    font-size: 95%;
+    
+}
+footer img{
+    padding-top:15px;   
+}
+.line{
+    border-top: 1px solid black;
+    margin-top:15px;
+    padding: 5px 30px;
+}
+
+article h1{
+    font-size: 18px;
+}
+article img{
+    margin-top:60px;
+}
+.nav-tabs{
+    margin-bottom:15px;
+}
+.tab-pane{
+    text-align: justify;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: orange;
+    
+}
+.breadcrumb{
+    margin-top:20px;
+}
+    
+    
